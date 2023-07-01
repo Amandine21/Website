@@ -5,7 +5,7 @@ Description
 
 This project showcases a static website that utilizes an AWS Pipeline for automated updates and deployments. The website content is hosted on an Amazon S3 bucket and served through Amazon CloudFront for improved performance and scalability. The AWS Pipeline is configured to trigger deployment whenever changes are pushed to the source code repository.
 
-#Technologies Used
+Technologies Used
 
     AWS (Amazon Web Services)
     AWS CodePipeline
@@ -14,16 +14,16 @@ This project showcases a static website that utilizes an AWS Pipeline for automa
     Git (Version Control)
     HTML, CSS, JavaScript (Front-end Technologies)
 
-#Features
+Features
 
     Continuous Deployment: Any changes pushed to the repository automatically trigger a pipeline that updates the static website.
     Scalability: The website is served through Amazon CloudFront, ensuring high performance and scalability.
     Version Control: Git is used for version control, allowing easy tracking of changes and collaboration with team members.
     Flexibility: The website can be easily customized and expanded using HTML, CSS, and JavaScript.
 
-#Getting Started
+Getting Started
 
-#To run this project locally, follow these steps:
+To run this project locally, follow these steps:
 
     Clone the repository to your local machine.
     Install any necessary dependencies for the website (if applicable).
@@ -32,9 +32,10 @@ This project showcases a static website that utilizes an AWS Pipeline for automa
     The AWS Pipeline will automatically detect the changes and trigger a deployment.
     Access the updated website through the provided URL.
 
-#Deployment
+Deployment
 
 The deployment of the static website is handled automatically by the AWS Pipeline. Any changes pushed to the repository will trigger the pipeline, ensuring that the latest version of the website is always deployed.
+
 Contributing
 
 Contributions to this project are welcome. If you encounter any issues or have ideas for improvements, please submit a pull request or open an issue on the project repository.
